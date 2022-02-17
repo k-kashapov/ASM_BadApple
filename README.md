@@ -4,6 +4,8 @@ BadApple running on DOSBox + Assembly
 # Description
 Plays BadApple in DOS. Waits for any key to be pressed after each frame. File bits.txt contains encrypted frame data. Encryption is neccessary to fit all the frames into 64 Kb segment of DOS. Assembly code decrypts the binary and prints bytes into video memory.
 
+Frames in ASCII: https://github.com/Chion82/ASCII_bad_apple
+
 # Usage
 1) Compile bad.ASM using any preferable compiler into a .COM file.
 2) Copy contents of bits.txt into the end of .COM file. This action is required, because Turbo Assembly can't compile file of size 63 Kb.
