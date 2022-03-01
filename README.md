@@ -6,6 +6,9 @@ Plays BadApple in DOS. Waits for any key to be pressed after each frame. File bi
 
 Frames in ASCII: https://github.com/Chion82/ASCII_bad_apple
 
+# Showcase
+![BAD](https://user-images.githubusercontent.com/52855633/156267557-d600ed62-5e17-45fc-9a17-c60b30d771bb.gif)
+
 # Usage
 1) Compile bad.ASM using any preferable compiler into a .COM file.
 2) Copy contents of bits.txt into the end of .COM file. This action is required, because Turbo Assembly can't compile file of size 63 Kb.
